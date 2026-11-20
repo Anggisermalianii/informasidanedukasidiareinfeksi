@@ -1,0 +1,136 @@
+/* PENGATURAN DASAR */
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body {
+background-color: #f4faf7;
+color: #333;
+line-height: 1.6;
+}
+
+/* HEADER */
+header {
+background: #087f68;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+/* NAVIGASI */
+nav {
+background: #056653;
+padding: 15px;
+text-align: center;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 10px;
+font-weight: bold;
+display: inline-block;
+}
+
+nav a:hover,
+nav a.aktif {
+color: #b8f0dc;
+}
+
+/* PENGATURAN HALAMAN */
+.halaman {
+display: none;
+padding: 40px 8%;
+min-height: 400px;
+}
+
+/* HALAMAN YANG DIPILIH */
+.halaman.aktif {
+display: block;
+}
+
+/* HOME */
+.home {
+padding: 70px 20px;
+text-align: center;
+background: #e0f5ec;
+}
+
+.home h2 {
+font-size: 35px;
+color: #087f68;
+}
+
+.home p {
+max-width: 750px;
+margin: 15px auto;
+}
+
+/* JUDUL */
+section h2 {
+color: #087f68;
+margin-bottom: 20px;
+}
+
+/* CARD */
+.card {
+background: white;
+padding: 25px;
+margin-bottom: 20px;
+border-radius: 12px;
+box-shadow: 0 3px 10px #0001;
+}
+
+/* FORMULIR */
+form {
+background: white;
+padding: 25px;
+border-radius: 12px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 6px;
+}
+
+/* TOMBOL */
+button {
+background: #087f68;
+color: white;
+padding: 12px 25px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+
+button:hover {
+background: #056653;
+}
+
+/* FOOTER */
+footer {
+background: #056653;
+color: white;
+text-align: center;
+padding: 25px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+nav a {
+display: inline-block;
+margin: 5px;
+}
+
+.home h2 {
+    font-size: 27px;
+}
+
+}
